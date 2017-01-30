@@ -1,0 +1,17 @@
+<div class="form-group">
+  <%= form_for @library do |f| %>
+  <div class="form-group">
+    <%= f.text_field :name, placeholder: "name" %>
+  </div>
+  <div class="form-group">
+    <%= f.number_field :floor_count, placeholder: "floor_count" %>
+  </div>
+  <div class="form-group">
+    <%= f.number_field :floor_area, placeholder: "floor_area" %>
+  </div>
+  <div class="form-group">
+    <%= f.submit %>
+    <% end %>
+  </div>
+
+</div>
